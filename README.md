@@ -246,7 +246,13 @@ pip freeze > requirements.txt
 
 ---
 
-# Step 10: Create the Frontend
+# Step 10: Run the backend project
+
+`uvicorn app.main:app --reload`
+
+---
+
+# Step 11: Create the Frontend
 
 Go back to the project root:
 
@@ -290,7 +296,7 @@ npm install -D tailwindcss @tailwindcss/vite
 
 ---
 
-# Step 11: Open the Whole Project
+# Step 12: Open the Whole Project
 
 ```bash
 code .
@@ -308,7 +314,7 @@ water-refilling-system/
 
 ---
 
-# Step 12: Backend Folder Structure
+# Step 13: Backend Folder Structure
 
 Inside `backend`:
 
@@ -335,7 +341,7 @@ backend/
 
 ---
 
-# Step 13: Frontend Folder Structure
+# Step 14: Frontend Folder Structure
 
 ```text
 frontend/
